@@ -1,0 +1,28 @@
+.inputView { 
+ background-color: #ECC0A8; 
+ line-height: 44px; 
+} 
+/*输入框*/
+.nameImage, .keyImage { 
+ margin-left: 22px; 
+ width: 14px; 
+ height: 14px
+} 
+  .loginBtnView { 
+ width: 100%; 
+ height: auto; 
+ background-color: #ECC0A8; 
+ margin-top: 0px; 
+ margin-bottom: 0px; 
+ padding-bottom: 0px; 
+} 
+  
+.loginBtn { 
+ width: 80%; 
+ margin-top: 35px; 
+}
+
+page{
+  background-color:#ECC0A8; 
+}
+

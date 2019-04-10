@@ -1,0 +1,23 @@
+ <view class="inputView">
+   
+      <label class="loginLab">手机号码</label>
+      <input class="inputText" placeholder="请输入手机号码" bindinput="stuNoInput" />
+    </view>
+     <view class="loginBtnView">
+      <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="getPhone">查询</button>
+    </view>
+    <view>
+       <text>省份：{{phoneInfor.province}} </text>
+    </view>
+     <view>
+       <text>城市：{{phoneInfor.city}}</text>
+     </view>
+     <view>
+       <text>运营商：{{phoneInfor.operator}}</text>
+     </view>
+     <view>
+       <text>固话前缀:{{phoneInfor.areaCode}}</text>
+     </view>
+     
+      
+   
